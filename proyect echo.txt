@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>pelis.my</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Vesper+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"
+      >
+        <a class="navbar-brand" href="#">Logo</a>
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> INICIO </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CATEGORIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ACERCA DE</a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>PELIS</h1>
+        <p>Ven y disfruta de los estrenos</p>
+        <button class="btn btn-success">Explorara mas</button>
+      </div>
+    </header>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-start">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card" style="">
+              <div
+                class="cover cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/rsz_pexels-toni-cuenca-619419.jpg?v=1655856410237);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-tittle">TERROR</h5>
+                <p class="card-text">
+                  Ofrecemos varidedad de peliculas de terror que puedes explorar
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Elige o muere</li>
+                  <li class="list-group-item">lamb</li>
+                  <li class="list-group-item">scream</li>
+                </ul>
+                <a href="#" class="btn btn-primary">explorar ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card" style="">
+              <div
+                class="cover cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/rsz_pexels-tobi-620335.jpg?v=1655855933124);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-tittle">Accion</h5>
+                <p class="card-text">
+                  Ofrecemos varidedad de peliculas de accion que puedes explorar
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">terminator</li>
+                  <li class="list-group-item">sicario</li>
+                  <li class="list-group-item">Rambo</li>
+                </ul>
+                <a href="#" class="btn btn-primary">explorar ahora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card" style="">
+              <div
+                class="cover cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/rsz_pexels-cottonbro-7181708.jpg?v=1655856117060);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-tittle">COMEDIA</h5>
+                <p class="card-text">
+                  Ofrecemos varidedad de peliculas de comedia que puedes explorar
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Tiempos modernos</li>
+                  <li class="list-group-item">El apartamento</li>
+                  <li class="list-group-item">Annie</li>
+                </ul>
+                <a href="#" class="btn btn-primary">explorar ahora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card" style="">
+              <div
+                class="cover cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/rsz_pexels-willsantt-2026960.jpg?v=1655856234431);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-tittle">INFANTIL</h5>
+                <p class="card-text">
+                  Ofrecemos varidedad de peliculas que puedes explorar
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Sonic</li>
+                  <li class="list-group-item">aimbo</li>
+                  <li class="list-group-item">vivo</li>
+                </ul>
+                <a href="#" class="btn btn-primary">explorar ahora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <img
+            src="https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/undraw_a_moment_to_relax_re_v5gv.svg?v=1655853887787"
+            alt="una persona relajada viendo peliculas"
+          />
+        </div>
+        <div class="col-12-sm-6">
+          <h3>¡ven a explorar la variedad de peliculas!</h3>
+          <p>sorprendete con los nuevos estrenos</p>
+          <a href="#">ir al sitio</a>
+        </div>
+      </div>
+      <div class="container mt-5 mb-5">
+        <form action="">
+          <label for="email"> CORREO ELECTRONICO</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-2">
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+m.css
+body {
+  margin: 0em;
+  font-family: "Fjalla One", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Vesper Libre", serif;
+}
+
+.cover {
+  height: 400px;
+
+  background-image: url(https://cdn.glitch.global/4d26d684-d620-4ac8-a682-d4cb9de01cb0/rsz_pexels-lisa-2343087.jpg?v=1655856580318);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0.1);
+}
+
+.card-tittle {
+  min-height: 3rem;
+}
+.card-text {
+  min-height: 10rem;
+}
